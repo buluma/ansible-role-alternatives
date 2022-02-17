@@ -13,7 +13,7 @@ jobs:
         with:
           status: starting
           channel: "#ansible"
-          message: Starting Ansible Aide GitLab Trigger...
+          message: Starting Ansible alternatives GitLab Trigger...
         if: always()
       - uses: actions/checkout@v2.4.0
       - name: Mirror + trigger CI.
