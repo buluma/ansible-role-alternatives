@@ -6,15 +6,11 @@
 name: Ansible Molecule
 
 on:
-  push:
-    branches:
-      - '**'
-    tags-ignore:
-      - '*'
-  pull_request:
+  # Schedule updates (once daily)
   schedule:
     - cron: '1 1 * * *'
   workflow_dispatch:
+  push: {branches: ["master", "main", "testing"]}
 
 concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}
@@ -25,7 +21,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: checkout
-        uses: actions/checkout@v2.4.0
+        uses: actions/checkout@v3
         with:
           path: "${{ github.repository }}"
       - name: molecule
@@ -66,7 +62,7 @@ jobs:
             tag: "focal"
     steps:
       - name: checkout
-        uses: actions/checkout@v2.4.0
+        uses: actions/checkout@v3
         with:
           path: "${{ github.repository }}"
       - name: disable apparmor for mysql
