@@ -11,8 +11,6 @@ variables:
 molecule:
   script:
     - image=${image} tag=${tag} molecule test
-  # rules:
-  #   - if: $CI_COMMIT_REF_NAME == "master"
   retry: 1
   parallel:
     matrix:
@@ -74,7 +72,7 @@ galaxy:
   script:
     - ansible-galaxy role info buluma.alternatives
 
-role_testing_live:
+role_testing:
   script:
     - image=${image} tag=${tag} ansible-galaxy install buluma.alternatives
   retry: 1

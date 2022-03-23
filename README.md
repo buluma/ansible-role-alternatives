@@ -2,9 +2,9 @@
 
 Set alternatives
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-alternatives/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-alternatives/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-alternatives/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-alternatives)|[![quality](https://img.shields.io/ansible/quality/57818)](https://galaxy.ansible.com/buluma/alternatives)|[![downloads](https://img.shields.io/ansible/role/d/57818)](https://galaxy.ansible.com/buluma/alternatives)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-alternatives.svg)](https://github.com/buluma/ansible-role-alternatives/releases/)|
+|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|---------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-alternatives/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-alternatives/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-alternatives/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-alternatives)|[![quality](https://img.shields.io/ansible/quality/57818)](https://galaxy.ansible.com/buluma/alternatives)|[![downloads](https://img.shields.io/ansible/role/d/57818)](https://galaxy.ansible.com/buluma/alternatives)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-alternatives.svg)](https://github.com/buluma/ansible-role-alternatives/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-alternatives.svg)](https://github.com/buluma/ansible-role-alternatives/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr/buluma/ansible-role-alternatives.svg)](https://github.com/buluma/ansible-role-alternatives/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
