@@ -35,7 +35,6 @@
 **Merged pull requests:**
 
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.3 to 1.0.4 [\#14](https://github.com/buluma/ansible-role-alternatives/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
-- version bump [\#7](https://github.com/buluma/ansible-role-alternatives/pull/7) ([buluma](https://github.com/buluma))
 
 ## [1.0.10](https://github.com/buluma/ansible-role-alternatives/tree/1.0.10) (2022-03-23)
 
@@ -74,6 +73,10 @@
 ## [1.0.5](https://github.com/buluma/ansible-role-alternatives/tree/1.0.5) (2022-02-12)
 
 [Full Changelog](https://github.com/buluma/ansible-role-alternatives/compare/1.0.4...1.0.5)
+
+**Merged pull requests:**
+
+- version bump [\#7](https://github.com/buluma/ansible-role-alternatives/pull/7) ([buluma](https://github.com/buluma))
 
 ## [1.0.4](https://github.com/buluma/ansible-role-alternatives/tree/1.0.4) (2022-02-10)
 
