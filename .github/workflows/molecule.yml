@@ -22,11 +22,8 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
-        with:
-          path: "${{ github.repository }}"
-      - name: Ansible Lint
-        uses: ansible/ansible-lint-action@v6.15.0
-        continue-on-error: true
+      - name: ansible-lint
+        uses: ansible-community/ansible-lint-action@main
   test:
     needs:
       - lint
