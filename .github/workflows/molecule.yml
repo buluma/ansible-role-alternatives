@@ -6,11 +6,19 @@
 name: Ansible Molecule
 
 on:
-  # Schedule updates (once daily)
+  push:
+    branches:
+      - master
+      - main
+      - testing
+    paths-ignore:
+      - '**/README.md'
+      - '**/CHANGELOG.md'
+    tags_ignore:
+      - '*'
+  pull_request:
   schedule:
-    - cron: '1 1 * * *'
-  workflow_dispatch:
-  push: {branches: ["master", "main"]}
+    - cron: '1 1 1 * *'
 
 concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}
@@ -37,41 +45,36 @@ jobs:
           - image: "amazonlinux"
             tag: "latest"
           - image: "enterpriselinux"
-            tag: "latest"
+            tag: "8"
           - image: "debian-systemd"
             tag: "latest"
           - image: "debian-systemd"
-            tag: "buster"
+            tag: "bookworm"
           - image: "fedora-systemd"
-            tag: "34"
-          - image: "fedora-systemd"
-            tag: "35"
+            tag: "36"
           - image: "fedora-systemd"
             tag: "latest"
+          - image: "fedora-systemd"
+            tag: "rawhide"
           - image: "docker-opensuse-systemd"
             tag: "latest"
           - image: "docker-ubuntu-systemd"
             tag: "latest"
           - image: "docker-ubuntu-systemd"
-            tag: "bionic"
-          - image: "docker-ubuntu-systemd"
             tag: "focal"
           - image: "docker-ubuntu-systemd"
-            tag: "jammy"
+            tag: "bionic"
     steps:
       - name: checkout
         uses: actions/checkout@v3
         with:
           path: "${{ github.repository }}"
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
       - name: disable apparmor for mysql
         run: sudo ln -s /etc/apparmor.d/usr.sbin.mysqld /etc/apparmor.d/disable/
       - name: parse apparmor for mysql
         run: sudo apparmor_parser -R /etc/apparmor.d/usr.sbin.mysqld
       - name: molecule
-        uses: buluma/molecule-action@v5.0.4
+        uses: buluma/molecule-action@v5.0.7
         with:
           image: ${{ matrix.config.image }}
           tag: ${{ matrix.config.tag }}
