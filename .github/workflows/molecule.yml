@@ -48,10 +48,6 @@ jobs:
             tag: "8"
           - image: "debian-systemd"
             tag: "latest"
-          - image: "debian-systemd"
-            tag: "bookworm"
-          - image: "fedora-systemd"
-            tag: "36"
           - image: "fedora-systemd"
             tag: "37"
           - image: "fedora-systemd"
@@ -64,6 +60,8 @@ jobs:
             tag: "focal"
           - image: "docker-ubuntu-systemd"
             tag: "bionic"
+          - image: "docker-ubuntu-systemd"
+            tag: "lunar"
     steps:
       - name: checkout
         uses: actions/checkout@v3
