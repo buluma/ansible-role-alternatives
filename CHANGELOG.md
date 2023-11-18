@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-alternatives/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-alternatives/compare/1.0.19...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#26](https://github.com/buluma/ansible-role-alternatives/issues/26)
+- Update action graphviz-action@ [\#25](https://github.com/buluma/ansible-role-alternatives/issues/25)
+
 ## [1.0.19](https://github.com/buluma/ansible-role-alternatives/tree/1.0.19) (2023-07-21)
 
 [Full Changelog](https://github.com/buluma/ansible-role-alternatives/compare/1.0.18...1.0.19)
