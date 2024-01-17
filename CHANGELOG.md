@@ -7,6 +7,7 @@
 **Merged pull requests:**
 
 - Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#37](https://github.com/buluma/ansible-role-alternatives/pull/37) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.7 to 1.0.8 [\#31](https://github.com/buluma/ansible-role-alternatives/pull/31) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.21](https://github.com/buluma/ansible-role-alternatives/tree/1.0.21) (2024-01-02)
 
@@ -49,10 +50,6 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-alternatives/compare/1.0.14...1.0.15)
 
-**Merged pull requests:**
-
-- Bump buluma/molecule-action from 5.0.1 to 5.0.4 [\#18](https://github.com/buluma/ansible-role-alternatives/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
-
 ## [1.0.14](https://github.com/buluma/ansible-role-alternatives/tree/1.0.14) (2022-07-14)
 
 [Full Changelog](https://github.com/buluma/ansible-role-alternatives/compare/1.0.13...1.0.14)
@@ -87,6 +84,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/molecule-action from 5.0.1 to 5.0.4 [\#18](https://github.com/buluma/ansible-role-alternatives/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
 - version bump [\#13](https://github.com/buluma/ansible-role-alternatives/pull/13) ([buluma](https://github.com/buluma))
 
 ## [1.0.7](https://github.com/buluma/ansible-role-alternatives/tree/1.0.7) (2022-03-02)
