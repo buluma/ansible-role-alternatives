@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-alternatives/tree/HEAD)
+## [1.1.0](https://github.com/buluma/ansible-role-alternatives/tree/1.1.0) (2024-02-04)
 
-[Full Changelog](https://github.com/buluma/ansible-role-alternatives/compare/1.0.21...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-alternatives/compare/1.0.21...1.1.0)
 
 **Merged pull requests:**
 
