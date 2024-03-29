@@ -118,7 +118,6 @@
 **Merged pull requests:**
 
 - Testing [\#9](https://github.com/buluma/ansible-role-alternatives/pull/9) ([buluma](https://github.com/buluma))
-- Testing [\#8](https://github.com/buluma/ansible-role-alternatives/pull/8) ([buluma](https://github.com/buluma))
 
 ## [1.0.5](https://github.com/buluma/ansible-role-alternatives/tree/1.0.5) (2022-02-12)
 
@@ -126,6 +125,7 @@
 
 **Merged pull requests:**
 
+- Testing [\#8](https://github.com/buluma/ansible-role-alternatives/pull/8) ([buluma](https://github.com/buluma))
 - version bump [\#7](https://github.com/buluma/ansible-role-alternatives/pull/7) ([buluma](https://github.com/buluma))
 
 ## [1.0.4](https://github.com/buluma/ansible-role-alternatives/tree/1.0.4) (2022-02-10)
