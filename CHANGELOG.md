@@ -62,6 +62,10 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-alternatives/compare/1.0.14...1.0.15)
 
+**Merged pull requests:**
+
+- Bump buluma/molecule-action from 5.0.1 to 5.0.4 [\#18](https://github.com/buluma/ansible-role-alternatives/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [1.0.14](https://github.com/buluma/ansible-role-alternatives/tree/1.0.14) (2022-07-14)
 
 [Full Changelog](https://github.com/buluma/ansible-role-alternatives/compare/1.0.13...1.0.14)
@@ -104,7 +108,6 @@
 
 **Merged pull requests:**
 
-- Bump buluma/molecule-action from 5.0.1 to 5.0.4 [\#18](https://github.com/buluma/ansible-role-alternatives/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
 - set concurrency [\#11](https://github.com/buluma/ansible-role-alternatives/pull/11) ([buluma](https://github.com/buluma))
 - Bump actions/checkout from 2.4.0 to 3 [\#10](https://github.com/buluma/ansible-role-alternatives/pull/10) ([dependabot[bot]](https://github.com/apps/dependabot))
 
