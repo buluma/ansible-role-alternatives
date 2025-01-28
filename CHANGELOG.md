@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump ansible/ansible-lint from 24.12.2 to 25.1.0 [\#50](https://github.com/buluma/ansible-role-alternatives/pull/50) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.12.1 to 24.12.2 [\#49](https://github.com/buluma/ansible-role-alternatives/pull/49) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.12.0 to 24.12.1 [\#48](https://github.com/buluma/ansible-role-alternatives/pull/48) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.10.0 to 24.12.0 [\#47](https://github.com/buluma/ansible-role-alternatives/pull/47) ([dependabot[bot]](https://github.com/apps/dependabot))
@@ -116,7 +117,6 @@
 
 - set concurrency [\#11](https://github.com/buluma/ansible-role-alternatives/pull/11) ([buluma](https://github.com/buluma))
 - Bump actions/checkout from 2.4.0 to 3 [\#10](https://github.com/buluma/ansible-role-alternatives/pull/10) ([dependabot[bot]](https://github.com/apps/dependabot))
-- version bump [\#7](https://github.com/buluma/ansible-role-alternatives/pull/7) ([buluma](https://github.com/buluma))
 
 ## [1.0.6](https://github.com/buluma/ansible-role-alternatives/tree/1.0.6) (2022-02-22)
 
@@ -130,6 +130,10 @@
 ## [1.0.5](https://github.com/buluma/ansible-role-alternatives/tree/1.0.5) (2022-02-12)
 
 [Full Changelog](https://github.com/buluma/ansible-role-alternatives/compare/1.0.4...1.0.5)
+
+**Merged pull requests:**
+
+- version bump [\#7](https://github.com/buluma/ansible-role-alternatives/pull/7) ([buluma](https://github.com/buluma))
 
 ## [1.0.4](https://github.com/buluma/ansible-role-alternatives/tree/1.0.4) (2022-02-10)
 
