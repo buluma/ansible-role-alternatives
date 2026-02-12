@@ -134,6 +134,7 @@
 **Merged pull requests:**
 
 - version bump [\#7](https://github.com/buluma/ansible-role-alternatives/pull/7) ([buluma](https://github.com/buluma))
+- Bump buluma/galaxy-action from 1.0.1 to 1.1.0 [\#5](https://github.com/buluma/ansible-role-alternatives/pull/5) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.4](https://github.com/buluma/ansible-role-alternatives/tree/1.0.4) (2022-02-10)
 
@@ -142,7 +143,6 @@
 **Merged pull requests:**
 
 - Cleanup Rocky difference. [\#6](https://github.com/buluma/ansible-role-alternatives/pull/6) ([buluma](https://github.com/buluma))
-- Bump buluma/galaxy-action from 1.0.1 to 1.1.0 [\#5](https://github.com/buluma/ansible-role-alternatives/pull/5) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump alstr/todo-to-issue-action from 2.3 to 4.6 [\#4](https://github.com/buluma/ansible-role-alternatives/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 1 to 2.4.0 [\#3](https://github.com/buluma/ansible-role-alternatives/pull/3) ([dependabot[bot]](https://github.com/apps/dependabot))
 
