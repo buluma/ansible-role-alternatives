@@ -5,7 +5,7 @@
   gather_facts: true
 
   roles:
-    - role: ansible-role-alternatives
+    - role: buluma.alternatives
       alternatives_list:
         - name: my_alternative_fake_binary
           link: /bin/my_alternative_fake_binary
