@@ -1,5 +1,5 @@
 ---
-- name: prepare
+- name: Prepare
   hosts: all
   become: true
   gather_facts: false
@@ -8,7 +8,7 @@
     - role: buluma.bootstrap
 
   tasks:
-    - name: make a fake binary
+    - name: Make a fake binary
       ansible.builtin.file:
         path: /bin/my_fake_binary
         state: touch
