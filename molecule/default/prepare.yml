@@ -1,15 +1,15 @@
 ---
-  - name: Prepare
-    hosts: all
-    become: true
-    gather_facts: false
+- name: Prepare
+  hosts: all
+  become: true
+  gather_facts: false
 
-    roles:
-      - role: buluma.bootstrap
+  roles:
+  - role: buluma.bootstrap
 
-    tasks:
-      - name: Make a fake binary
-        ansible.builtin.file:
-          path: /bin/my_fake_binary
-          state: touch
-          mode: "0755"
+  tasks:
+  - name: Make a fake binary
+    ansible.builtin.file:
+      path: /bin/my_fake_binary
+      state: touch
+      mode: "0755"
