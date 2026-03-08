@@ -5,11 +5,11 @@
   gather_facts: false
 
   roles:
-  - role: buluma.bootstrap
+    - role: buluma.bootstrap
 
   tasks:
-  - name: Make a fake binary
-    ansible.builtin.file:
-      path: /bin/my_fake_binary
-      state: touch
-      mode: "0755"
+    - name: Make a fake binary
+      ansible.builtin.file:
+        path: /bin/my_fake_binary
+        state: touch
+        mode: "0755"

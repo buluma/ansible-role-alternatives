@@ -9,9 +9,9 @@ on:
   pull_request:
   push:
     paths:
-    - ".github/workflows/test.yaml"
+      - ".github/workflows/test.yaml"
   schedule:
-  - cron: "1 3 * * *"
+    - cron: "1 3 * * *"
   workflow_dispatch:
 
 jobs:
@@ -21,10 +21,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v6
+      - uses: actions/checkout@v6
 
-    - name: Test Role install.
-      run: ansible-galaxy install buluma.alternatives
+      - name: Test Role install.
+        run: ansible-galaxy install buluma.alternatives
 
-    - name: Get Role ID.
-      run: ansible-galaxy info buluma.alternatives
+      - name: Get Role ID.
+        run: ansible-galaxy info buluma.alternatives
